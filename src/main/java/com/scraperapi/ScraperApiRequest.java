@@ -47,6 +47,8 @@ public class ScraperApiRequest {
 
   public String result() {
 
+    Unirest.config().reset();
+
     Unirest.config()
       .socketTimeout(this.timeout)
       .automaticRetries(retry_n > 0);
@@ -95,4 +97,3 @@ public class ScraperApiRequest {
   }
 
 }
-
