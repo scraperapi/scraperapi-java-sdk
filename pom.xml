@@ -56,7 +56,7 @@
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.7</version>
+        <version>1.7.0</version>
         <extensions>true</extensions>
         <configuration>
           <serverId>ossrh</serverId>
@@ -127,7 +127,7 @@
       </activation>
       <properties>
         <gpg.executable>gpg</gpg.executable>
-        <gpg.keyname>EDDDCEABB15A9C7709029323200C370ECE7675BE</gpg.keyname>
+        <gpg.keyname>9C731792A8F56D321750039BAF1CE2D7A6A744C9</gpg.keyname>
         <gpg.passphrase>run</gpg.passphrase>
       </properties>
     </profile>
